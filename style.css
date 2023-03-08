@@ -1,0 +1,77 @@
+body {
+  background-color: hsl(216, 12%, 8%);
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Overpass', sans-serif;
+  font-weight: 400, 700;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 35vh;
+}
+
+h2 {
+  color: hsl(0, 0%, 100%);
+}
+
+p {
+  color: hsl(217, 12%, 63%);
+  font-size: 15px;
+}
+
+/* Classes */
+
+.card {
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Overpass', sans-serif;
+  text-align: left;
+  font-size: 15px;
+  background-color: hsl(213, 19%, 18%);
+  border-radius: 20px;
+  padding: 30px;
+  width: 330px;
+  height: 330px;
+}
+
+.star-icon {
+  border-radius: 100px;
+  padding: 10px;
+  background-color: hsl(216, 24%, 21%);
+}
+
+ .button {
+   font-family: 'Montserrat', sans-serif;
+   font-family: 'Overpass', sans-serif;
+   font-size: 15px;
+   color: hsl(217, 12%, 63%);
+   background-color: hsl(216, 24%, 21%);
+   border-radius: 100px;
+   border-style: none;
+   margin-top: 10px;
+   margin-left: 15px;
+   height: 45px;
+   width: 45px;
+ }
+ .button:hover {
+  color: hsl(0, 0%, 100%);
+  background-color:hsl(216, 12%, 54%);
+ }
+
+.submit {
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Overpass', sans-serif;
+  font-size: 15px;
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+  border: 0;
+  border-radius: 100px;
+  width: 300px;
+  height: 40px;
+  text-align: center;
+  margin-top: 40px;
+  margin-left: 15px;
+}
+.submit:hover {
+  color: hsl(25, 97%, 53%);
+  background-color: hsl(0, 0%, 100%);
+}

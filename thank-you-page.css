@@ -1,0 +1,44 @@
+body {
+    background-color: hsl(216, 12%, 8%);
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 400, 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35vh;
+    text-align: center;
+}
+
+h2 {
+    color: hsl(0, 0%, 100%);
+  }
+  
+p {
+    color: hsl(217, 12%, 63%);
+    font-size: 15px;
+  }
+
+.select {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: hsl(217, 26%, 25%);
+    border-radius: 100px;
+    color: hsl(25, 97%, 53%);
+    height: 30px;
+    width: 190px;
+    margin-left: 70px;
+}
+
+.card {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Overpass', sans-serif;
+    text-align: center;
+    font-size: 15px;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 20px;
+    padding: 30px;
+    width: 330px;
+    height: 330px;
+}
